@@ -6,20 +6,36 @@ import Icon from './Icon.astro';
 	<div class="stack gap-2 lg:gap-4">
 		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
 		<h2>ヘルプデスク</h2>
-		<p>コメント</p>
+		<p>顧客社員からの問い合わせ対応</p>
+		<ul>
+			<li>PCの操作方法、パスワード初期化依頼、Wi-Fiやプリンタのトラブル</li>
+		</ul>
+		<p>申請対応(環境に適したアカウント作成など)</p>
+		<ul>
+			<li>受付、登録、削除、更新を一貫して対応</li>
+			<li>ブラウザ、TeraTerm、コマンドプロンプトを使用</li>
+		</ul>
+		<p>その他</p>
+		<ul>
+			<li>PCキッティング、手順書作成、議事録作成</li>
+		</ul>
 	</div>
 	<div class="stack gap-2 lg:gap-4">
 		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>運用保守</h2>
-		<p>コメント</p>
+		<h2>運用保守・開発</h2>
+		<p>エンハンス対応</p>
+		<ul>
+			<li>コードの改修、テスト業務(単体・結合)、リリース対応</li>
+		</ul>
+		<p>手順書作成</p>
+		<ul>
+			<li>システムを使用するお客様向け手順書、内部向け手順書</li>
+		</ul>
+		<p>問い合わせ対応</p>
+		<ul>
+			<li>システムの仕様についての対応</li>
+		</ul>
 	</div>
-	<!--
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Strategy-Minded</h2>
-		<p>Urna porttitor rhoncus dolor purus non enim praesent ornare.</p>
-	</div>
-	-->
 </section>
 
 <style>
@@ -53,7 +69,7 @@ import Icon from './Icon.astro';
 
 		.skills {
 			display: grid;
-			grid-template-columns: repeat(3, 1fr);
+			grid-template-columns: repeat(2, 1fr);
 			gap: 5rem;
 		}
 
