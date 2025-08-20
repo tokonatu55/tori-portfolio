@@ -70,7 +70,7 @@ tags:
 &nbsp;
 
 #### 設計書
-- [画面遷移図](https://github.com/1996OH/WordBook/blob/main/WordBook/docs/%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3.md)
+- [画面遷移図](https://github.com/tokonatu55/kakeibo-tool/blob/main/docs/%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3.md)
 
 &nbsp;
 
